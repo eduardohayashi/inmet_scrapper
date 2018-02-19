@@ -37,6 +37,9 @@ Assim, para pegar os dados da estação de Cuiabá/MG, deverá rodar desse modo:
 
 Eu adicionei um arquivo de referencia - [estacoes_inmet.txt](https://github.com/eduardohayashi/inmet_scrapper/blob/master/estacoes_inmet.txt) - que pode ser usado pra consultar os códigos e as localidades.
 
+## Aviso
+O firewall do INMET bloqueia o seu IP se fizer muitas requisições ao site deles, então modere na utilização do coletor. Se você for bloqueado, terá que trocar o ip ou aguardar de 1 a 2 dias.
+
 ## Observações
 No momento, o sistema traz apenas os dados de ontem e hoje, assim para uma coleta eficiente bastará rodar uma vez por dia para cada estação.
 No INMET os dados ficam disponíveis por até um ano, então numa próxima atualização colocarei uma opção para coleta de datas personalizadas.
