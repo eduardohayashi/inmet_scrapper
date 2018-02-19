@@ -35,6 +35,7 @@ Na página http://www.inmet.gov.br/portal/index.php?r=estacoes/estacoesAutomatic
 Assim, para pegar os dados da estação de Cuiabá/MG, deverá rodar desse modo:
 ```python3 service.py -c A901```
 
+Eu adicionei um arquivo de referencia - [estacoes_inmet.txt](https://github.com/eduardohayashi/inmet_scrapper/blob/master/estacoes_inmet.txt) - que pode ser usado pra consultar os códigos e as localidades.
 
 ## Observações
 No momento, o sistema traz apenas os dados de ontem e hoje, assim para uma coleta eficiente bastará rodar uma vez por dia para cada estação.
